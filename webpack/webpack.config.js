@@ -8,18 +8,19 @@ module.exports = {
         filename: 'principal.js',
         path: __dirname + '/public' 
     },
-    plugin: [
+    plugins: [
         new MiniCssExtractPlugin({
-            filename: 'estilo.css'
+            filename: "estilo.css"
         })
     ],
     module: {
         rules: [{
-            test: /\.css$/,
+            test: /\.s?[ac]ss$/,
             use: [
                 MiniCssExtractPlugin.loader,
                // 'style-loader',
                 'css-loader', // interpreta o @import
+                'sass-loader',
             ]
         }]
     }
