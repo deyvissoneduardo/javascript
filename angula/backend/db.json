@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Azul",
+      "price": 2.89
+    },
+    {
+      "id": 2,
+      "name": "NoteBook DELL",
+      "price": 3.999
+    },
+    {
+      "id": 3,
+      "name": "Nexus 6pro",
+      "price": 2000.89
+    },
+    {
+      "name": "mouse",
+      "price": "12.45",
+      "id": 4
+    }
+  ]
+}

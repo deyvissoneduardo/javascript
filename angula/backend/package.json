@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deyvissoneduardo/javascript.git"
+  },
+  "author": "Deyvisson Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deyvissoneduardo/javascript/issues"
+  },
+  "homepage": "https://github.com/deyvissoneduardo/javascript#readme",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
