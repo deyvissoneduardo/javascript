@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Primary from './components/Primary'
+//import Primary from './components/Primary'
+import Sencond from './components/Second'
 
-
-ReactDOM.render(<Primary />, document.getElementById('root'))
+ReactDOM.render(<Sencond nome="Paramentro" />, document.getElementById('root'))
