@@ -2,11 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 //import Primary from './components/Primary'
 //import Sencond from './components/Second'
-import { PrimaryComponent, SecondComponent } from './components/Multiple'
+//import { PrimaryComponent, SecondComponent } from './components/Multiple'
+import { Saudacao } from './components/Saudacao'
+
 
 ReactDOM.render(
     <div>
-        <PrimaryComponent nome="Componente 1" />
-        <SecondComponent nome="Componente 2" />
+        <Saudacao tipo="Ola" nome="Mundo"/>
     </div>
     , document.getElementById('root'))
