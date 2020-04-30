@@ -1,11 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Deyvisson Eduardo",
-        "email": "de@gmail.com"
-    }, {
-        "id": 1,
-        "name": "Rayanne Silva",
-        "email": "ray@gmail.com"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Deyvisson Eduardo",
+      "email": "de@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Rayanne Silva",
+      "email": "ray@gmail.com"
+    },
+    {
+      "name": "Kelia",
+      "email": "klm@empresa.com",
+      "id": 3
+    }
+  ]
 }
