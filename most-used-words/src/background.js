@@ -30,11 +30,11 @@ function createWindow () {
     win.loadURL('app://./index.html')
   }
  /* life cycle method */
-  win.webContents.on('did-finish-load', () => {
-    const { title, version } = require('../package.json')
-    win.setTitle(`${title} :: ${version}`)
-    console.log('terminou')
-  })
+ win.webContents.on('did-finish-load', () => {
+  const { title, version } = require('../package.json')
+  win.setTitle(`${title} :: ${version}`)
+  console.log('terminou')
+})
 
   win.on('closed', () => {
     win = null
